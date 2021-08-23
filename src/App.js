@@ -1,20 +1,15 @@
-import Content from './Component/content';
-import Header from './Component/header';
-import Sidebar from './Component/Sidebar';
-import Tasks from './Component/Tasks';
-import React from 'react';
+import React from "react";
+import Header from "./components/Header";
+import Content from "./components/Content";
+import "./App.css";
 
 const App = () => {
     return (
         <>
-            <Content />
             <Header />
-            <Sidebar />
-            <Tasks />
-
-
+            <Content />
         </>
-    )
-}
+    );
+};
 
-export default App
+export default App;
